@@ -1,0 +1,84 @@
+main
+{/*This is the core styling for the webpage*/
+    background-color: #4b0000;
+    color: #ffffff;
+}
+#logo
+{
+    height: 100px;
+}
+#Header
+{/*This is the styling for the header*/
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0; 
+    padding: 1% 1%; 
+    background: #690000; 
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    z-index: 2;
+}
+#navigation
+{
+    background: #690000; 
+    position: sticky;
+    top: 100px; 
+    width: 100%;
+    border-color: black;
+    border-width: 10px;
+    z-index: 2;
+}
+#footer
+{/* This is the styling for the footer*/
+    background: #690000;
+    color: #ffffff;
+    width: 100%;
+    margin-left: 0%; 
+    padding: 1% 1%; 
+    margin-bottom: -2%;
+}
+#Article_of_text
+{/*This is the CSS for the main body of text*/
+    position: relative;
+    margin: auto;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 20%;  
+}
+#Generic_image_format
+{
+    width: 100%;;
+}
+a:link 
+{/*This is the link standerd*/
+color: #ffffff;
+}
+a:visited 
+{/*This is the link that wasn't*/
+color: #ffffff;
+}
+a:hover 
+{/*This is the link that is hovered*/
+color: #ff6868;
+}
+form{
+    background-color: #843d3d;
+    width: 100%;
+    height: fit-content;
+    margin: 2%;
+}
+.row{/*This is the row padding css*/
+    padding: 1%;
+}
+
+#Output_field{
+    background-color: #843d3d;
+    width: 100%;
+    height: fit-content;
+    margin: 2%;
+    
+}
